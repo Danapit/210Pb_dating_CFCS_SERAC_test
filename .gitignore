@@ -37,3 +37,7 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# SERAC user metadata
+.Renviron
+/Cores/serac_metadata_*
