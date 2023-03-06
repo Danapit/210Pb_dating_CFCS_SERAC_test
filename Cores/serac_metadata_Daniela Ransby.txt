@@ -1,0 +1,5 @@
+"SECTIONS" "USER.INFORMATIONS"
+"username" "Daniela Ransby"
+"affiliation" "AWI Bremerhaven"
+"ORCID" "0000-0002-3643-333X"
+"email" "daniela.ransby@awi.de"
