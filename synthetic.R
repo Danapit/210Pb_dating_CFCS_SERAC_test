@@ -2,8 +2,7 @@ library(SciViews)
 library(dplyr)
 library(serac)
 
-
-# some initial assumptions
+# some initial assumptions ------------------------------------------------
 sedrate <- 0.2
 activity_ini <- 100
 supported <- 20
@@ -13,10 +12,10 @@ count.factor <- 6
 # initiate results data frame, where the model calculated Sed Rates will be written
 results <- data.frame()
 
-# generating random scattedred depth profiles and applying the model
+# generating random scattered depth profiles and applying the model
 for (i in 1:500) {
   
-#initiate profile
+# initiate profile
 synth_profile <- data.frame("depth" = c(0.5:24.5),
                             "depth.min" = c(0:24),
                             "depth.max" = c(1:25))
