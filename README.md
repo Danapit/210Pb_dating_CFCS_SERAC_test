@@ -1,8 +1,6 @@
 # 210Pb dating CFCS SERAC test
-The exponential fit in this model is done on linearized profile, using linear fit. However, because 210Pb_xs is a value calculated from two measurements, at the lower activity profile where the excess activity nears 0, ofen times negative values are present. These are the ignored by the fit and not included in calculated parameters.
+The fitting in this model in order to calculate sedimentation rate and initial activity parameters is done on a linearized profile (using log(Activity)), with a linear fit. However, because 210Pb_xs is a value calculated from two measurements, at the lower activity profile where the excess activity nears 0, often times negative values are present. These are then ignored by the fit and not included in calculation of parameters. I wondered if this can have an systematic effect on the fit result.
 ![scatch](https://github.com/Danapit/210Pb_dating_CFCS_SERAC_test/blob/main/Figs/Scatch.png)
-
-I wonder if this can have an systematic effect on the fit result.
 
 I though of this experiment:
 * define an "ideal" profile with sedimentation rate, initial activity, constant supported lead value a "calibration factor"
