@@ -10,3 +10,5 @@ I though of this experiment:
 * calculate a sedimentation rate using CFCS model included in the serac package
 * do this many times and evaluate if in case of negative values in the profile this will have a systematic effect on the calculated sedimentation rate
 
+The R code for this is included in [synthetic.R](https://github.com/Danapit/210Pb_dating_CFCS_SERAC_test/blob/main/synthetic.R).
+The results of the individual runs are written in the directory [/Results/](https://github.com/Danapit/210Pb_dating_CFCS_SERAC_test/tree/main/Results) and are analyred graphically (and hopefully also statistcially) in the same code: [synthetic.R](https://github.com/Danapit/210Pb_dating_CFCS_SERAC_test/blob/main/synthetic.R).
