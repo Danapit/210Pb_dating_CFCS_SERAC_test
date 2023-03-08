@@ -102,3 +102,16 @@ summary(all_results$negative_points)
 
 p <- ggplot(all_results, aes(negative_points, SR))
 p + geom_boxplot()
+
+# export the plot as SR_vs_negpoints.png
+
+# calcucate and summarize mean, sd and number of data pints for each level on # of negative values
+results_summary <- data_frame(
+  aggregate(all_results$SR, list(all_results$negative_points), FUN=mean)
+)
+results_summary$sd <- aggregate(all_results$SR, list(all_results$negative_points), FUN=sd)[,2]
+results_summary$L <- aggregate(all_results$SR, list(all_results$negative_points), FUN=length)[,2]
+names(results_summary) <- c("number of negative", "mean", "std dev", "N")
+
+
+
