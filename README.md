@@ -12,9 +12,7 @@ The R code for this is included in [synthetic.R](https://github.com/Danapit/210P
 The results of the individual runs are written in the directory [/Results/](https://github.com/Danapit/210Pb_dating_CFCS_SERAC_test/tree/main/Results) and are analyzed graphically (and also statistcially) in the same code: [synthetic.R](https://github.com/Danapit/210Pb_dating_CFCS_SERAC_test/blob/main/synthetic.R).
 
 ## Results
-
-![scatch](https://github.com/Danapit/210Pb_dating_CFCS_SERAC_test/blob/main/Figs/SR_vs_negpoints.png)
-
+And this is what came out, the table:
 
 | number of negative |mean |std dev | N  |
 |--------------------|-----|--------|----|
@@ -26,6 +24,11 @@ The results of the individual runs are written in the directory [/Results/](http
 | 5 |  0.207 | 0.0268   | 28  |
 | 6 |  0.220 | 0.0216   |  7 |
 | 7 |  0.198 | 0.00849  |  2 |
+
+and graphical overview:
+![scatch](https://github.com/Danapit/210Pb_dating_CFCS_SERAC_test/blob/main/Figs/SR_vs_negpoints.png)
+
+The stats will hopefully come later.
 
 ## References
 Bruel, Rosalie and Sabatier, Pierre (2020): [serac](https://github.com/rosalieb/serac): an R package for ShortlivEd RAdionuclide chronology of recent sediment cores, Journal of Environmental Radioactivity, 225, [doi:10.1016/j.jenvrad.2020.106449](https://doi.org/10.1016/j.jenvrad.2020.106449)
