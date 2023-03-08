@@ -25,7 +25,9 @@ And this is what came out, the table:
 | 6 |  0.220 | 0.0216   |  7 |
 | 7 |  0.198 | 0.00849  |  2 |
 
+
 and graphical overview:
+
 ![scatch](https://github.com/Danapit/210Pb_dating_CFCS_SERAC_test/blob/main/Figs/SR_vs_negpoints.png)
 
 The stats will hopefully come later.
