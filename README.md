@@ -12,7 +12,9 @@ The R code for this is included in [synthetic.R](https://github.com/Danapit/210P
 The results of the individual runs are written in the directory [/Results/](https://github.com/Danapit/210Pb_dating_CFCS_SERAC_test/tree/main/Results) and are analyzed graphically (and also statistcially) in the same code: [synthetic.R](https://github.com/Danapit/210Pb_dating_CFCS_SERAC_test/blob/main/synthetic.R).
 
 ## Results
-And this is what came out, the table:
+The sedimentation rate was set to be be 20 mm/y.
+
+And these are the sedimentation rates (means and standard deviations of the individual runs for number of runs N) what came out, by the number of negative values:
 
 | number of negative |mean |std dev | N  |
 |--------------------|-----|--------|----|
